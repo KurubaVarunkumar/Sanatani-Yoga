@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+       
+        nav{
+            width:auto ;
+            height: 4rem;
+            
+            background-color: rgba(0, 0, 0, 0.329);
+            display: flex;
+            justify-content: space-around;
+            line-height: 30px;
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+
+        li{
+            margin-left: 40px;
+            padding: 10px;
+            list-style: none;
+            text-transform: lowercase;
+            
+            
+    
+        }
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        ul li  :hover{
+            font-size: 14px;
+            color: aqua;
+        }
+
+        h1{
+           margin-top: 8px;
+           color: white;
+        }
+       
+
+        footer{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.433);
+           
+        }
+
+        .foot{
+            display: flex;
+          
+        }
+
+        .one{
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+
+
+            
+        }
+
+        .two{
+            width: 50%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        #ff{
+            display: flex;
+            
+        justify-content:space-evenly;
+            
+        }
+
+        .imgf{
+            height: 35px;
+            width: 35px;
+        }
+
+        .fff{
+            color: black;
+        }
+
+        main{
+                padding: 10px;
+                background-color: #EA906C;
+                width:auto ;
+            
+            width: 100vw;
+            height: 1300px;
+            font-size: 1.5rem;
+            }
+        p{
+            font-size: 1.5rem; 
+            padding: 10px;
+        }
+       
+        h3{
+            font-size: 4rem;
+            padding: 120px 20px;
+            text-align: center;
+            font-family: 'Yellowtail', cursive;
+            color: rgba(0, 0, 0, 0.585);
+        }
+
+        h4{
+            color: white;
+        }
+
+        button{
+            height: 2.5rem;
+            width: 8rem;
+            color: rgb(69, 69, 69);
+            background-color: rgba(255, 255, 255, 0.242);
+           font-size: 1rem;
+            border-radius: 40px;
+            margin-right: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        button:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgba(255, 255, 255, 0.598);
+        }
+       .pose{
+        height: 300px;
+        width: 400px;
+       }
+      
+        @media only screen and (max-width: 420px) {
+            /* ---------------------------------------------------------------------------------------------------------------------- */
+
+            *{
+            margin: 0%;
+            padding: 0%;
+        }
+      
+        nav{
+            width:100vw ;
+            height: 3rem;
+            
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-evenly;
+            line-height: 30px;
+        }
+
+        ul{
+            display: flex;
+            justify-content: left;
+            
+            
+        }
+
+        li{
+            margin-left: 2px;
+            padding: 10px;
+            list-style: none;
+            text-transform: lowercase;
+            font-size: 0.8rem;
+            
+            
+    
+        }
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        ul li  :hover{
+            font-size: 14px;
+            color: aqua;
+        }
+
+        h1{
+           margin-top: 8px;
+           color: white;
+           font-size: 1rem;
+           
+        }
+
+        main{
+            /* background-color: aquamarine; */
+            width: 100vw;
+            height: auto;
+        }
+
+        footer{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+           
+        }
+
+        .foot{
+            display: flex;
+
+        }
+
+        .one{
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+
+
+            
+        }
+
+        .two{
+            width: 50%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        #ff{
+            display: flex;
+            
+        justify-content:space-evenly;
+            
+        }
+
+        .imgf{
+            height: 25px;
+            width: 25px;
+        }
+
+        .fff{
+            color: black;
+        }
+        .pose{
+            width: 350px;
+            height: 250px;
+        }
+       
+
+        .quote{
+            height: 40rem;
+            width: 22rem;
+            
+            
+            
+        }
+        h3{
+            font-size: 2.5rem;
+            padding: 120px 20px;
+            text-align: center;
+            font-family: 'Yellowtail', cursive;
+            color: rgb(0, 0, 0);
+            text-align: justify;
+        }
+
+        h4{
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        button{
+            height: 2rem;
+            width: 5rem;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+           font-size: 0.5rem;
+            border-radius: 40px;
+            
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        button:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgba(255, 255, 255, 0.598);
+        }
+       p{
+        font-size:12.8px ;
+        font-family: 'Times New Roman', Times, serif;
+       }
+
+        }
+      
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Sanathani Yoga</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">about</a></li>
+            <li><a href="Uses.html">Why</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <h2>8. Bhastrika Pranayama</h2>
+        <img src="Bhastrika Pranayama (Bellows Breath).jpeg" class="pose">
+       
+        <p>
+                    
+            Bhastrika Pranayama, often referred to as Bellows Breath, is a powerful and energizing yogic breathing technique. The name "Bhastrika" is derived from the Sanskrit word "Bhastrika," which means bellows. This pranayama involves rapid and forceful inhalations and exhalations, creating a bellows-like movement in the abdomen. Bhastrika Pranayama is known for its ability to increase energy, improve mental clarity, and enhance lung capacity.
+                </p>
+                <h2>how to do</h2>
+                <li>Preparation:
+
+                    Sit in a comfortable and stable posture, such as Sukhasana (cross-legged) or Padmasana (lotus pose). Keep your spine straight and shoulders relaxed.
+                    Place your hands on your knees in a mudra (gesture) of your choice, such as Jnana Mudra (touching the tip of the thumb to the index finger with the other fingers extended).</li>
+                <li> Breathing Technique:
+
+                    Take a few deep breaths to prepare.
+                    Inhale deeply through both nostrils, expanding your chest and filling your lungs with air.
+                    Exhale forcefully and completely through both nostrils, contracting your abdomen. This should create a pumping or bellows-like movement.</li>
+                <li> Rhythm:
+
+                    Establish a rapid and rhythmic pattern of breath, with equal emphasis on both inhalation and exhalation.
+                    Beginners can start with a moderate pace and gradually increase the speed as they become more comfortable.</li>
+                <li>Duration:
+
+                    Practice Bhastrika for about 1-2 minutes initially, gradually increasing the duration as you build stamina.
+                    Take a few moments of rest with normal breathing after each round.</li>
+                    <li>Awareness:
+
+                        Keep your awareness on the breath and the rhythmic movement of the abdomen.
+                        Maintain a focused and alert state of mind.</li>
+                <li>Number of Rounds:
+
+                    Start with 3 rounds and gradually increase to 5 or more as you become accustomed to the practice..</li>
+                       
+            </dd>
+            <dl>Benefits of Bhastrika Pranayama:</dl>
+                <li>Increased Energy: Bhastrika is known for its invigorating and energizing effects on the body.</li>
+                <li>Improved Lung Capacity: Strengthens the respiratory system and enhances lung function.</li>
+                <li>Clears the Mind: Helps in clearing mental fog and improving concentration.</li>
+                <li>Clears the Mind: Helps in clearing mental fog and improving concentration.</li>
+            <dl>Contraindications:</dl>
+                <li>Individuals with high blood pressure, heart conditions, or respiratory issues should practice Bhastrika Pranayama with caution or consult a healthcare professional before attempting.</li>
+                <li>Pregnant women and individuals with abdominal injuries or surgeries should avoid or modify the practice.</li>
+                
+        
+    </main>
+    <footer>
+
+        <div class="foot">
+
+            <div class="one">
+                <ul id="ff">
+              <a href="tel:8639285999"><img src="icons8-call-48.png" alt="" class="imgf"> </a>  
+                 
+              <a href=" https://wa.me/8639285999 "><img src="icons8-whatsapp-48.png" alt="" class="imgf"></a>  
+
+              <a href="https://www.instagram.com/varun17291729/"> <img src="icons8-instagram-48.png" alt class="imgf"></a>  
+
+              <a href=""> <img src="icons8-fb-48.png" alt="" class="imgf"> </a>  
+                </ul>
+            </div>
+            <div class="two">
+                <h4>&copy 2023 varun kumar kuruba</h4> 
+                
+            </div>
+        </div>
+
+        
+    </footer>
+</body>
+</html>
