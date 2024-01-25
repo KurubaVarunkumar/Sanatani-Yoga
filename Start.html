@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url(bg7.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav{
+            width: auto;
+            height: 4rem;
+            
+            background-color: rgba(0, 0, 0, 0.329);
+            display: flex;
+            justify-content: space-around;
+            line-height: 30px;
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+
+        li{
+            margin-left: 40px;
+            padding: 10px;
+            list-style: none;
+            text-transform: uppercase;
+            
+            
+    
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul li  :hover{
+            font-size: 14px;
+            color: aqua;
+        }
+
+        h1{
+           margin-top: 8px;
+           color: white;
+        }
+        main{
+            /* background-color: aquamarine; */
+            width: auto;
+            height: 620px;
+        }
+
+        footer{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.433);
+        }
+
+        .foot{
+            display: flex;
+
+        }
+
+        .one{
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+
+
+            
+        }
+
+        .two{
+            width: 50%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        #ff{
+            display: flex;
+            
+        justify-content:space-evenly;
+            
+        }
+
+        .imgf{
+            height: 35px;
+            width: 35px;
+        }
+
+        .fff{
+            color: black;
+        }
+
+        main{
+            text-align: center;
+           
+        }
+
+        .quote{
+            height: 40rem;
+            width: 60rem;
+            
+            
+            
+        }
+      
+
+       
+
+        button{
+            height: 2.5rem;
+            width: 8rem;
+            color: rgb(69, 69, 69);
+            background-color: rgba(255, 255, 255, 0.242);
+           font-size: 1rem;
+            border-radius: 40px;
+            margin-right: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        button:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgba(255, 255, 255, 0.598);
+        }
+        a{
+            color: rgb(9, 11, 11);
+        }
+       
+        
+        #container{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #b1{
+            border:1px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("suryaDiv1.jpeg") ;
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            color: black;
+           
+        }
+        #b2{
+            border:2px solid black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("Asanas.jpg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b3{
+            border:2px solid black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("pranayamas1.jpeg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b4{
+            border:2px solid black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("mediation.jpeg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b5{
+            border:2px solid black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("phylasopic.jpg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b6{
+            border:2px solid black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("philosophy.jpg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b7{
+            border:2px solid black;
+            height: 12rem;
+            width: 18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("spirutual.jpeg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b8{
+            border:2px solid black;
+            height: 12rem;
+            width:18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("typeOfYoga.jpeg");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        #b9{
+            border:2px solid black;
+            height: 12rem;
+            width:18rem;
+            margin: 1rem;
+            margin-top: 2rem;
+            background-image: url("MindBody.png");
+            background-size: 18rem 12rem;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+       
+
+        .rm{
+            text-transform: capitalize;
+            font-size: 1rem;
+            background-color: rgb(0, 0, 0);
+            padding: 1rem 1rem;
+            margin-top: -3.5rem;
+            border-bottom: 10px;
+            
+
+          
+            
+            
+        }
+
+        .rm2{
+            color: white;
+        }
+
+        .rm:hover{
+            background-color: rgba(0, 0, 0, 0.493);
+        }
+       
+
+        p{
+            text-align: justify;
+            padding: 2rem;
+            font-size: 1.2rem;
+            
+        }
+        
+        @media only screen and (max-width: 420px) {
+            /* ---------------------------------------------------------------------------------------------------------------------- */
+
+            *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url(bg7.1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav{
+            width:100vw ;
+            height: 3rem;
+            
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-evenly;
+            line-height: 30px;
+        }
+
+        ul{
+            display: flex;
+            justify-content: left;
+            
+            
+        }
+
+        li{
+            margin-left: 2px;
+            padding: 10px;
+            list-style: none;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            
+            
+    
+        }
+        a {
+            text-decoration: none;
+            color: rgb(27, 21, 21);
+        }
+
+        ul li  :hover{
+            font-size: 14px;
+            color: aqua;
+        }
+
+        h1{
+           margin-top: 8px;
+           color: white;
+           font-size: 1rem;
+           
+        }
+
+        main{
+            /* background-color: aquamarine; */
+            width: 100vw;
+            height: auto;
+        }
+
+        footer{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .foot{
+            display: flex;
+
+        }
+
+        .one{
+            width: 50%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+
+
+            
+        }
+
+        .two{
+            width: 50%;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        #ff{
+            display: flex;
+            
+        justify-content:space-evenly;
+            
+        }
+
+        .imgf{
+            height: 25px;
+            width: 25px;
+        }
+
+        .fff{
+            color: black;
+        }
+
+        main{
+            text-align: center;
+           
+        }
+
+        .quote{
+            height: 40rem;
+            width: 22rem;
+            
+            
+            
+        }
+       
+
+       
+
+        button{
+            height: 2rem;
+            width: 5rem;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+           font-size: 0.5rem;
+            border-radius: 40px;
+            
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        button:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgba(255, 255, 255, 0.598);
+        }
+       
+
+        }
+      
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Sanathani Yoga</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">about</a></li>
+            <li><a href="Uses.html">Why</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+       <p>Yoga is a holistic system that originated in ancient India and has been practiced for thousands of years. It encompasses a variety of physical, mental, and spiritual practices aimed at promoting overall well-being and harmony. The word "yoga" itself comes from the Sanskrit word "yuj," which means to yoke or unite, reflecting the union of body, mind, and spirit that yoga seeks to achieve.</p>
+       <div id="container">
+        <div id="b1">
+            <h3>SuryaNamaskars</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="Suryanamaskars1.html" class="rm2">Read more</a></h2>
+        </div>
+        <div id="b2">
+            <h3>Asanas</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="" class="rm2">Read more</a></h2>
+        </div>
+        <div id="b3">
+            <h3>Pranayamas</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="pranayamas1.html" class="rm2">Read more</a></h2>
+        </div>
+        <div id="b4">
+            <h3>Meditation</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="" class="rm2">Read more</a></h2>
+        </div>
+       
+        <div id="b6">
+            <h3>philosophy</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="" class="rm2">Read more</a></h2>
+        </div>
+        <div id="b7">
+            <h3>Spiritual Aspect</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="" class="rm2">Read more</a></h2>
+        </div>
+        <div id="b8">
+            <h3>Type of Yoga</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="" class="rm2">Read more</a></h2>
+        </div>
+        <div id="b9">
+            <h3>Mind body connection</h3>
+            <br><br><br> <br><br><br><br><br><br>
+            <h2  class="rm"> <a href="" class="rm2">Read more</a></h2>
+        </div>
+        </div>
+    </main>
+    <footer>
+
+        <div class="foot">
+
+            <div class="one">
+                <ul id="ff">
+              <a href=""><img src="icons8-call-48.png" alt="" class="imgf"> </a>  
+                 
+              <a href=""><img src="icons8-whatsapp-48.png" alt="" class="imgf"></a>  
+
+              <a href=""> <img src="icons8-instagram-48.png" alt class="imgf"></a>  
+
+              <a href=""> <img src="icons8-fb-48.png" alt="" class="imgf"> </a>  
+                </ul>
+            </div>
+            <div class="two">
+                <h4>&copy 2023 varun kumar kuruba</h4> 
+                
+            </div>
+        </div>
+
+        
+    </footer>
+</body>
+</html>
